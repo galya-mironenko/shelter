@@ -1,0 +1,185 @@
+
+
+@media  (max-width: 1200px) {
+    .section-main {
+        padding: 6.6rem 0;
+    }
+    .wrapp-head {
+        background-image: none;
+        background-color: #392d28;
+    }
+    .main-block {
+        max-width: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-block h1{
+        padding-right: 0px;
+    }
+    .main-block h1,
+    .main-block p {
+       text-align: center;
+    }
+    .wrapper .button-color{
+        width: 270px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section-pets .carousel {
+        width: 100%;
+    }
+    .section-pets .card{
+        max-width: 220px !important;
+    }
+    .new-menu-item {
+        width: 25%;
+    }
+    .footer{
+        background-color: #392d28;
+        background-image: none;
+    }
+}
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px; 
+    }
+    
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 15px; 
+    }   
+      .new-menu-item {
+        width: 33.333%;
+    }
+    .new-menu-list{
+        margin: 0px;
+    }
+    .new-menu-icon {
+        left: 37%;
+    }
+    .donat-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .donat .donat-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+    .donat .txt-second-donat {
+        padding: 10px;
+        margin: 0px;
+}
+}
+@media (max-width: 991px) {
+    .new-menu-icon {
+        left: 32%;
+    }
+    .section-main {
+        padding: 3.6rem 0;
+    }
+
+    .main-block h1 {
+        font-size: 40px;
+    }
+    .wrapper .button-white {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-main {
+        padding: 2.6rem 0;
+    }
+    .section-pets .carouse{
+        padding: 0px 150px !important;
+    }
+    .new-menu-item {
+        width: 50%;
+    }
+    .footer h2{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .footer-item{
+        width: 250px;
+    }
+    .footer-icon{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .item-2{
+        margin-top: 20px;
+    }
+    .footer h2 {
+        font-size: 30px;
+    }
+    .footer-txt{
+        margin-left: 65px;
+        font-size: 16px;
+    }
+    .about_us-img{
+        justify-content: center;
+        display: flex;
+    }
+    .section-pets .card {
+        max-width: 350px !important;
+        margin: 0px;
+    }
+    .caption{
+        font-size: 30px;
+    }
+    .wrapper .button-white {
+        padding: 0.8rem 2rem;
+    }
+}
+@media (max-width: 480px) {
+    .new-menu-item {
+        width: 100%;
+    }
+    .new-menu-icon {
+        left: 40%;
+    }
+    .number-card {
+        width: 280px;
+}
+.number-card span {
+    font-size: 16px;
+}
+.footer h2 {
+    font-size: 24px;
+}
+.footer-txt {
+    font-size: 15px;
+}
+.about_us-txt h2{
+    padding-right: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.section-pets .card {
+    max-width: 280px !important;
+    margin: 0px;
+}
+.section-pets .carousel {
+    padding: 0px 51px;
+}
+}
+/* @media (min-width: 320px) and (max-width: 479px){
+
+    .new-menu-icon {
+        left: 40%;
+    }
+} */
